@@ -32,7 +32,7 @@ void add(int **&a, int &n)
 	tmp[1][n] = numb;
 
 	if (n != 0) {
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < x; i++)
 		{
 			delete[] a[i];
 		}
